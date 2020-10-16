@@ -1,0 +1,384 @@
+body{
+	background:#F9F9F9;
+	font-family: 'Dosis', sans-serif;}
+.header-area {
+    display: flex;
+	font-family: 'Dosis', sans-serif;
+    max-height: 100px;
+	background:#fff
+}
+.logo{}
+.logo img{width:65%}
+
+.main-menu {
+    float: right;
+	line-height:100px
+}
+.main-menu ul{
+	margin:0;
+	padding: 0;
+	list-style:none;
+}
+.main-menu ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+.main-menu ul li:first-child a{color:#ED1C24}
+.main-menu ul li:nth-child(2) a{color:#aa4dcc}
+.main-menu ul li:nth-child(3) a{color:#3CB65C}
+.main-menu ul li:nth-child(4) a{color:#F7CA44}
+.main-menu ul li:nth-child(5) a{color:#FB9455}
+.main-menu ul li:last-child a{color:#ff64b4}
+
+.main-menu ul li a {
+    font-size: 18px;
+    font-family: dosis;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.main-menu ul li a:hover{text-decoration:none; color:#ED1C24;border-bottom: 3px solid #ED1C24}
+
+.donate-btn {
+    text-align: center;
+    padding-top: 28px;
+    float: right;
+}
+
+.donate-btn a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    display: inline-block;
+    background: #F1582B;
+    border-radius: 3px;
+}
+
+.donate-btn a:hover{background:#aa4dcc}
+
+
+.slider{position:relative}
+.slider img{max-width:100%;height:auto}
+
+
+.home-page-icon-boxes{background:#fff}
+
+.icon-box {
+    padding: 40px;
+    border-radius: 24px;
+    background: #ecf2f5;
+    text-align: center;
+    transition: all .35s;
+}
+
+.icon-box i{
+	font-size: 50px
+}
+
+.icon-box:hover,
+.icon-box.active {
+    border: 0;
+    background: #ED1C24;
+    color: #fff;
+}
+
+
+.icon-box figure img:nth-of-type(1) {
+    display: block;
+}
+
+.icon-box figure img:nth-of-type(2) {
+    display: none;
+}
+
+.icon-box:hover figure img:nth-of-type(1),
+.icon-box.active figure img:nth-of-type(1) {
+    display: none;
+}
+
+.icon-box:hover figure img:nth-of-type(2),
+.icon-box.active figure img:nth-of-type(2) {
+    display: block;
+}
+
+.icon-box .entry-title {
+    margin-top: 28px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #262626;
+}
+
+.icon-box:hover .entry-title,
+.icon-box.active .entry-title {
+    color: #fff;
+}
+
+.icon-box .entry-content {
+    margin-top: 24px;
+}
+
+.icon-box .entry-content p {
+    margin: 0;
+    font-size: 14px;
+    color: #595858;
+}
+
+.icon-box:hover .entry-content p,
+.icon-box.active .entry-content p {
+    color: #fff;
+}
+
+
+/*======================
+		Who We Are
+========================*/
+
+.who-wer{
+	display:block;
+	overflow:hidden;
+}
+
+.who-wer-thumb {
+    background: #fff;
+    padding: 5px;
+    border: 7px solid #ED1C24;
+    border-radius: 3px;
+}
+
+.who-wer-thumb img{
+	max-width:100%;
+	height: auto;
+}
+
+.who-wer-content p{
+	font-weight:600;
+}
+
+.sub-p p{font-weight:300}
+
+
+
+.s-topic {
+    background: #fff;
+    padding: 30px 15px;
+   /* box-shadow: 0px 0px 5px #ddd;*/
+    border-radius: 5px;
+	border: 1px solid red;
+}
+
+
+
+.icon {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    text-align: center;
+    background: #ED1C24;
+    border-radius: 50%;
+}
+
+.icon .fas {
+    font-size: 42px;
+    line-height: 80px;
+    color: #fff;
+}
+
+
+
+
+
+.section-title {
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.section-title h2 span {
+    color: #ED1C24;;
+} 
+ 
+.single_upcoming_event:hover .date{background:#ED1C24;} 
+ 
+.upcoming_event_area {
+    padding-bottom: 80px;
+}
+
+.single_upcoming_event {
+    background: #fff;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px #ddd;
+}
+
+.single_upcoming_event figure {
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+}
+
+.single_upcoming_event figure img {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.single_upcoming_event:hover img {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.single_upcoming_event:hover .title a {
+    color: #ED1C24;;
+}
+
+.single_upcoming_event figure .date {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: rgba(21,24,29,0.8);
+    color: #fff;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-family: "Lora",serif;
+    font-weight: 700;
+    padding: 18px 20px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+ 
+ .single_upcoming_event .content_wrapper .title {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+ .single_upcoming_event .content_wrapper .title a {
+    color: #15181d;
+}
+
+.single_upcoming_event:hover .title a {
+    color: #ff573d;
+}
+
+.single_upcoming_event .content_wrapper .single_time {
+    position: relative;
+    margin-right: 25px;
+    padding-right: 25px;
+}
+.single_upcoming_event .content_wrapper .single_time:after {
+    content: '';
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 1px;
+    background: #cfcfcf;
+}
+.single_upcoming_event .content_wrapper .single_time h4 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.primary-btn2 {
+    position: relative;
+    display: inline-block;
+    color: #ff573d;
+    font-family: "Lora",serif;
+    font-size: 14px;
+    font-weight: 400;
+    outline: none !important;
+    text-transform: capitalize;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+ 
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    .content_wrapper {
+		text-align: center;
+		padding: 20px;
+	}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .content_wrapper {
+		text-align: center;
+		padding: 20px;
+  }
+  
+}
